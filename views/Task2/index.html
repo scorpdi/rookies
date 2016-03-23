@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Document</title>
+<style>
+body{padding:0;margin:0;font:normal 14px/24px "\5FAE\8F6F\96C5\9ED1";color:#333;background:#1B1B1B;}
+ul,li{padding:0;margin:0}
+img{border:none;vertical-align:top;}
+li{list-style:none;}
+.main{width:600px;height:360px;margin:20px auto;padding-left:5px;overflow:hidden;position:relative;background:#0D4D62;}
+.box{width:600px;height:auto;overflow:hidden;}
+.box li{width:100%;height:61px;margin-top:10px;position:relative;float:left;}
+.box li a.pic{width:55px;height:55px;padding:3px;display:block;float:left;}
+.box li a.pic:hover{background:#165f77;}
+.box li a.pic img{width:55px;height:55px;}
+.box li .text{width:500px;height:39px;padding:10px;float:left;margin-left:10px;background:#083A4A;color:#FFF;line-height:22px;overflow:hidden;}
+.box li .text:hover{height:auto;background:#165f77;overflow:visible;position:absolute;left:61px;z-index:999}
+.hnav p{float: left;color: #fff;margin-right: 10px;}
+</style>
+</head>
+<body>
+<div class="main">
+    <nav class="hnav">
+        <p>标题1</p>
+        <p>标题2</p>
+        <p>标题3</p>
+    </nav>
+<ul class="box" id="box">
+	<li>
+		<a href="javascript:void(0)" target="_blank" class="pic">
+			<img src="https://img.alicdn.com/tps/TB1fuBcMXXXXXcjXVXXXXXXXXXX-284-424.jpg">
+		</a>
+		<div class="text">page1</div>
+	</li>
+    <li>
+    	<a href="javascript:void(0)" target="_blank" class="pic">
+    		<img src="https://img.alicdn.com/tps/TB1u0JcMXXXXXXraXXXXXXXXXXX-280-420.jpg">
+    	</a>
+    	<div class="text">page2</div>
+    </li>
+</ul>
+</div>
+</body>
+</html>
